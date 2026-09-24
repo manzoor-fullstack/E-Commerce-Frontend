@@ -119,6 +119,40 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+
+
+.text {
+  color: #FAFAFA;
+}
+
+.text-red {
+  color: #DB4444;
+}
+
+.text-green {
+  color: #00FF66;
+}
+
+.text-2 {
+  color: #000000;
+}
+
+.btn-1 {
+  background-color: #00FF66;
+}
+
+.btn-2 {
+  background-color: #DB4444;
+}
+
+.secondary {
+  background-color: #F5F5F5;
+}
+
+.secondary-2 {
+  background-color: #DB4444
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
